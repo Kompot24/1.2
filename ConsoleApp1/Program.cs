@@ -30,7 +30,7 @@ namespace ConsoleApp1
                     count2++;
                 }
             }
-            outMessage = $"Кол-во \n5: {count5}\n4: {count4}\n3: {count3}\n2: {count2}\n";
+            outMessage = $"Кол-во 5: {count5} 4: {count4} 3: {count3} 2: {count2}";
             return outMessage;
         }
     }
@@ -39,19 +39,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int count;
-            Console.WriteLine("Кол-во оценок");
-            count = int.Parse(Console.ReadLine());
-            int[] mass = new int[count];
+            int[] mass = new int[10];
             int number;
-            for (int i = 0; i < mass.Length; i++)
+            for(int i  = 0; i < mass.Length; i++)
             {
                 Console.WriteLine("Введите оценки учеников");
                 number = int.Parse(Console.ReadLine());
-                mass[i] = number;
+                mass[i] = number; 
             }
 
-            Console.WriteLine(Logic.Compare(mass));
+            string outMessage = Logic.Compare(mass);
+            Console.WriteLine(outMessage);
         }
     }
 }
