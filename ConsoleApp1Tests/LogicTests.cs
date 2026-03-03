@@ -13,27 +13,56 @@ namespace ConsoleApp1.Tests
     public class LogicTests
     {
         [TestMethod()]
-        public void firstTest()
+        public void randomMarks()
         {
             int[] mass = { 5, 4, 3, 2, 5, 4, 3, 2, 5, 4};
-            var message = Logic.Compare(mass);
+            var message = Logic.CountMarks(mass);
             Assert.AreEqual($"Кол-во 5: 3 4: 3 3: 2 2: 2",message);
         }
 
         [TestMethod()]
-        public void secondTest()
+        public void onlyFiveMarks()
         {
-            int[] mass = { 4, 4, 4, 2, 3, 2, 3, 3, 2, 4 };
-            var message = Logic.Compare(mass);
-            Assert.AreEqual($"Кол-во 5: 0 4: 4 3: 3 2: 3", message);
+            int[] mass = { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5};
+            var message = Logic.CountMarks(mass);
+            Assert.AreEqual($"Кол-во 5: 10 4: 0 3: 0 2: 0", message);
+        }
+        [TestMethod()]
+        public void onlyFourMarks()
+        {
+            int[] mass = { 4, 4, 4, 4, 4, 4, 4, 4, 4, 4};
+            var message = Logic.CountMarks(mass);
+            Assert.AreEqual($"Кол-во 5: 0 4: 10 3: 0 2: 0", message);
+        }
+        [TestMethod()]
+        public void onlyThreeMarks()
+        {
+            int[] mass = { 3, 3, 3, 3, 3, 3, 3, 3, 3, 3};
+            var message = Logic.CountMarks(mass);
+            Assert.AreEqual($"Кол-во 5: 0 4: 0 3: 10 2: 0", message);
+        }
+        [TestMethod()]
+        public void onlyTwoMarks()
+        {
+            int[] mass = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2};
+            var message = Logic.CountMarks(mass);
+            Assert.AreEqual($"Кол-во 5: 10 4: 0 3: 0 2: 0", message);
         }
 
         [TestMethod()]
-        public void thirsrTest()
+        public void noneMarks()
         {
-            int[] mass = { 2, 2, 2, 2, 2, 2, 2, 2, 5, 4 };
-            var message = Logic.Compare(mass);
+            int[] mass = {};
+            var message = Logic.CountMarks(mass);
             Assert.AreEqual($"Кол-во 5: 1 4: 1 3: 0 2: 8", message);
+        }
+
+        [TestMethod()]
+        public void marksInOrdinalNumbers()
+        {
+            int[] mass = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+            var message = Logic.CountMarks(mass);
+            Assert.AreEqual($"Кол-во 5: 1 4: 1 3: 1 2: 1", message);
         }
     }
 }

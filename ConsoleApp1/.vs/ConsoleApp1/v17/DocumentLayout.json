@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\dz\\\u0421#\\1.2\\ConsoleApp1\\",
+  "WorkspaceRootPath": "E:\\dz\\C#\\1.2\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23CB54D0-A152-441F-B588-35F73F4F2362}|ConsoleApp1.csproj|d:\\dz\\\u0441#\\1.2\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23CB54D0-A152-441F-B588-35F73F4F2362}|ConsoleApp1.csproj|e:\\dz\\c#\\1.2\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23CB54D0-A152-441F-B588-35F73F4F2362}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\dz\\C#\\ConsoleApp1Tests\\LogicTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E393469F-C5B2-4809-8A0F-2DF1DC8DD4D1}|..\\ConsoleApp1Tests\\ConsoleApp1Tests.csproj|e:\\dz\\c#\\1.2\\consoleapp1tests\\logictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,20 +23,24 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "LogicTests.cs",
-              "DocumentMoniker": "E:\\dz\\C#\\ConsoleApp1Tests\\LogicTests.cs",
-              "ToolTip": "E:\\dz\\C#\\ConsoleApp1Tests\\LogicTests.cs",
+              "DocumentMoniker": "E:\\dz\\C#\\1.2\\ConsoleApp1Tests\\LogicTests.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleApp1Tests\\LogicTests.cs",
+              "ToolTip": "E:\\dz\\C#\\1.2\\ConsoleApp1Tests\\LogicTests.cs",
+              "RelativeToolTip": "..\\ConsoleApp1Tests\\LogicTests.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T05:02:04.867Z"
+              "WhenOpened": "2026-03-03T04:26:00.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\dz\\\u0421#\\1.2\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "E:\\dz\\C#\\1.2\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\dz\\\u0421#\\1.2\\ConsoleApp1\\Program.cs",
+              "ToolTip": "E:\\dz\\C#\\1.2\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T14:23:43.668Z",
               "EditorCaption": ""

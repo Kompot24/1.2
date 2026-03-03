@@ -1668,23 +1668,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EFIMP\\.nuget\\packages\\": {},
-    "D:\\Program\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\stud\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dz\\С#\\1.2\\ConsoleApp1Tests\\ConsoleApp1Tests.csproj",
+      "projectUniqueName": "E:\\dz\\C#\\1.2\\ConsoleApp1Tests\\ConsoleApp1Tests.csproj",
       "projectName": "ConsoleApp1Tests",
-      "projectPath": "D:\\dz\\С#\\1.2\\ConsoleApp1Tests\\ConsoleApp1Tests.csproj",
-      "packagesPath": "C:\\Users\\EFIMP\\.nuget\\packages\\",
-      "outputPath": "D:\\dz\\С#\\1.2\\ConsoleApp1Tests\\obj\\",
+      "projectPath": "E:\\dz\\C#\\1.2\\ConsoleApp1Tests\\ConsoleApp1Tests.csproj",
+      "packagesPath": "C:\\Users\\stud\\.nuget\\packages\\",
+      "outputPath": "E:\\dz\\C#\\1.2\\ConsoleApp1Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\EFIMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stud\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1699,8 +1699,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\dz\\С#\\1.2\\ConsoleApp1\\ConsoleApp1.csproj": {
-              "projectPath": "D:\\dz\\С#\\1.2\\ConsoleApp1\\ConsoleApp1.csproj"
+            "E:\\dz\\C#\\1.2\\ConsoleApp1\\ConsoleApp1.csproj": {
+              "projectPath": "E:\\dz\\C#\\1.2\\ConsoleApp1\\ConsoleApp1.csproj"
             }
           }
         }
@@ -1715,7 +1715,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -1746,7 +1746,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

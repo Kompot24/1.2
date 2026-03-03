@@ -4,24 +4,24 @@ namespace ConsoleApp1
 {
     public class Logic
     {
-        public static string Compare(int[] mass)
+        public static string CountMarks(int[] marks)
         {
             string outMessage = "";
             int count5 = 0;
             int count4 = 0;
             int count3 = 0;
             int count2 = 0;
-            for (int i = 0; i < mass.Length; i++)
+            for (int i = 0; i < marks.Length; i++)
             {
-                if (mass[i] == 5)
+                if (marks[i] == 5)
                 {
                     count5++;
                 }
-                else if (mass[i] == 4)
+                else if (marks[i] == 4)
                 {
                     count4++;
                 }
-                else if (mass[i] == 3)
+                else if (marks[i] == 3)
                 {
                     count3++;
                 }
@@ -39,6 +39,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //1.2
             int[] mass = new int[10];
             int number;
             for(int i  = 0; i < mass.Length; i++)
@@ -48,7 +49,7 @@ namespace ConsoleApp1
                 mass[i] = number; 
             }
 
-            string outMessage = Logic.Compare(mass);
+            string outMessage = Logic.CountMarks(mass);
             Console.WriteLine(outMessage);
         }
     }
